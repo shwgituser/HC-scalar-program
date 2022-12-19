@@ -34,7 +34,7 @@ public class Array {
 	public void display()
 	{
 		for (int i = 0; i < numarray.length; i++) {
-			System.out.print("Size of an Element: "+ i + ", ");
+			System.out.print("Element added successfully: "+numarray[ i] + ", ");
 			
 		}
 	}
@@ -48,6 +48,7 @@ public class Array {
 				numarraynew[i] = numarray[i];
 			}
 			numarray = numarraynew;
+			numarraysize = newsize;
 		}
 		else
 		{
